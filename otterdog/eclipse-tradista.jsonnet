@@ -10,6 +10,16 @@ orgs.newOrg('eclipse-tradista') {
     },
   },
   _repositories+:: [
+    orgs.newRepo('tradista') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      dependabot_alerts_enabled: false,
+      description: "Tradista: the first open source Financial Risk Management Solution",
+      has_discussions: true,
+      homepage: "",
+      web_commit_signoff_required: false,
+    },
     orgs.newRepo('tradista-website') {
       allow_merge_commit: true,
       allow_update_branch: false,
