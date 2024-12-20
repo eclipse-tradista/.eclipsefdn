@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-tradista') {
+orgs.newOrg('technology.tradista', 'eclipse-tradista') {
   settings+: {
     description: "",
     name: "Eclipse Tradista project",
